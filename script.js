@@ -35,7 +35,7 @@ feedbackForm.addEventListener('submit', (e) => {
 
   const formData = new FormData(feedbackForm);
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', 'https://formcarry.com/s/JaNllP6cta', true);
+  xhr.open('POST', 'https://formcarry.com/s/FuwsZpFD7h', true);
   xhr.onreadystatechange = () => {
     if (xhr.readyState === XMLHttpRequest.DONE) {
       if (xhr.status === 200) {
